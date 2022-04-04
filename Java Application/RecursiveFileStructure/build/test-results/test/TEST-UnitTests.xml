@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UnitTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-04-02T16:57:36" hostname="Camerons-MacBook-Air.local" time="0.015">
+  <properties/>
+  <testcase name="readAFileFromResourceNotNull()" classname="UnitTests" time="0.006"/>
+  <testcase name="removeIndents1()" classname="UnitTests" time="0.0"/>
+  <testcase name="removeIndents2()" classname="UnitTests" time="0.0"/>
+  <testcase name="removeIndents3()" classname="UnitTests" time="0.0"/>
+  <testcase name="getIndentsTest1()" classname="UnitTests" time="0.0"/>
+  <testcase name="getIndentsTest2()" classname="UnitTests" time="0.0"/>
+  <testcase name="getIndentsTest3()" classname="UnitTests" time="0.0"/>
+  <testcase name="printFileOne()" classname="UnitTests" time="0.003"/>
+  <testcase name="printFileTwo()" classname="UnitTests" time="0.001"/>
+  <testcase name="readAFileFromResourceNotNull_fileTwo()" classname="UnitTests" time="0.0"/>
+  <system-out><![CDATA[C:\
+    Documents
+        Images
+            Image1.jpg
+            Image2.jpg
+            Image3.png
+    File.txt
+    Dance.txt
+C:\
+    Documents
+        Images
+            Image1.jpg
+            Image2.jpg
+            Image3.png
+    Program Files
+        Skype
+            Skype.exe
+            Readme.txt
+        Mysql
+            Mysql.exe
+            Mysql.com
+    Files
+        Skype
+            Skype.exe
+            Readme.txt
+            Mysql
+                Mysql.exe
+                Mysql.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
